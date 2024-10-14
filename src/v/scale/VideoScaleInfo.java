@@ -90,9 +90,7 @@ class VideoScaleInfo implements VideoScale {
     }
 
     @Override
-    public boolean changed() {
-        return false;
-    }
+    public boolean changed() { return false; }
 
     @Override
     public float getScreenMul() {        
